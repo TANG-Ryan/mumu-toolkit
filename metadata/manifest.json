@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "version": "2",
+  "created_at": "2026-11-09T22:32:37.020235+08:00",
+  "scope": "Fixed distribution files; manifest excluded from its own digest",
+  "files": [
+    {
+      "path": "00_开始阅读.html",
+      "bytes": 14061,
+      "sha256": "899658b7db5089931deb41b808873c0208949c06da756dd9a8298b4962bedb7e"
+    },
+    {
+      "path": "docs/修复来源.md",
+      "bytes": 1813,
+      "sha256": "52100ed9a4fafaf1f9cbd7f66620b6330e7dcdfaa299fb77c442ea9e01d4628f"
+    },
+    {
+      "path": "docs/安装与迁移.md",
+      "bytes": 4940,
+      "sha256": "cba93eb88108ab9d6591d348817b7e354bca0e762cd60eeddc6e38c8bf5ebc40"
+    },
+    {
+      "path": "materials/apps/amap_android_17.03.0.2008.apk",
+      "bytes": 179829767,
+      "sha256": "287202d017d27c6bbacb84c658da9a6cc265655c4cf9e44d878127b50836d15b"
+    },
+    {
+      "path": "materials/apps/lepao_android_4.3.3.apk",
+      "bytes": 133044116,
+      "sha256": "72a93d55f0e7731263e6b4f844f6fae67628a9859234c7f02e185260893e2f73"
+    },
+    {
+      "path": "materials/apps/LocationSpoofer_2.6.13_network_fix.apk",
+      "bytes": 47415299,
+      "sha256": "cc8bc5dd0ecefc77180a9426e5a07bde066e4923ff439c2dbc78a3b36eed2231"
+    },
+    {
+      "path": "materials/apps/wechat_android_8.0.80.apk",
+      "bytes": 286319384,
+      "sha256": "9d9b6c516e8e07e437c81485fde21fe13ce4f61b37d19e793fff40c71be39c0e"
+    },
+    {
+      "path": "materials/modules/bszip-v2.00-offline-fix.zip",
+      "bytes": 33336537,
+      "sha256": "3b4fc7cd05c000a30572a29cbc5dc277c9880f61ade44b7989a9fba1d7b522a1"
+    },
+    {
+      "path": "materials/windows/mumu_windows_6.8.8-channel.exe",
+      "bytes": 6350344,
+      "sha256": "77bb55e018ab3016f8524cd635e29d7525a9ac248fa02bc2308805cfc3b96987"
+    },
+    {
+      "path": "metadata/apps.json",
+      "bytes": 4090,
+      "sha256": "fcae9ab77db77465f103eda70735a3a9ab7c9bba296b7f8966f8d84749f1023e"
+    },
+    {
+      "path": "metadata/assets.json",
+      "bytes": 6449,
+      "sha256": "5d360897c633cbbc13bbb0c179ab96c629c446d0eb6837eb883f128e9d7edbd8"
+    },
+    {
+      "path": "metadata/validation.json",
+      "bytes": 2494,
+      "sha256": "24d77755ac2ad4f988bbc6caf2f2c76c72e000a9b7f705979dfbb7caab3c9003"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3333,
+      "sha256": "e0b612d34d08f9ce075f98451a7e201f655c331fbffe50ae09104d1ba0d47534"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 16181,
+      "sha256": "dcfe09b058d3d87a0e88a2558b10d428c76d3e3be97ea2d1e0c6380d6c303d0a"
+    },
+    {
+      "path": "START.cmd",
+      "bytes": 193,
+      "sha256": "1401d21a7c6abb209ebed474e52bde6945c76fa83d8831bd3423e84974d8d4d3"
+    },
+    {
+      "path": "tests/FakeAdb.cs",
+      "bytes": 1938,
+      "sha256": "afd40bebfebce52b06b8142fb47f212893264e47ad9c6311a4b7818fa46d04e3"
+    },
+    {
+      "path": "tests/test_installer.py",
+      "bytes": 3332,
+      "sha256": "d75f0f8e133a4df1f0c14379c4e4675929a6311aacc445daa9d37dffe563da4a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 660,
+      "sha256": "4cc9410ebb5b1ee60b06cd315eb1c54bd23436c8065750d6067019b0f1c3026d"
+    },
+    {
+      "path": "tools/Common.ps1",
+      "bytes": 6009,
+      "sha256": "d9ac32a0cf6a707267ccdcb6a596b295f765a4e0d97564d3cfe15176f2e3bb09"
+    },
+    {
+      "path": "tools/Install-APK.ps1",
+      "bytes": 6358,
+      "sha256": "a1169cd1f80abe1128390a72e5583c9d0c244e701bf90634b06579399851c7ab"
+    },
+    {
+      "path": "tools/Start.ps1",
+      "bytes": 508,
+      "sha256": "f5a563c91600ac57df9ffdad7df7ccf4eea18fd99e25ec2955f98d3138f7847c"
+    }
+  ]
+}

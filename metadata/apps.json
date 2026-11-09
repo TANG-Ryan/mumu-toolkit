@@ -1,0 +1,108 @@
+[
+  {
+    "id": "wechat_android",
+    "name": "微信",
+    "kind": "apk",
+    "package": "com.tencent.mm",
+    "version": "8.0.80",
+    "version_code": 3220,
+    "min_sdk": 24,
+    "target_sdk": 34,
+    "abis": [
+      "arm64-v8a"
+    ],
+    "certificate_sha256": [
+      "0fe4ff85c215918396dadc7cd8ce6963339af33d37751a56e54c7206b63a3c7c"
+    ],
+    "sha256": "9d9b6c516e8e07e437c81485fde21fe13ce4f61b37d19e793fff40c71be39c0e",
+    "bytes": 286319384,
+    "path": "materials/apps/wechat_android_8.0.80.apk",
+    "source_url": "https://weixin.qq.com/?lang=zh_CN",
+    "download_url": "https://dldir1v6.qq.com/weixin/android/weixin8080android3220_0x28005032_arm64.apk",
+    "retrieved_at": "2026-11-09T22:30:28.145538+08:00",
+    "compatibility_note": "官方最新版安装包；本次未进行模拟器运行验证，此前在 MuMu Android15 中有媒体线程崩溃记录。",
+    "signature_verified": true
+  },
+  {
+    "id": "amap_android",
+    "name": "高德地图",
+    "kind": "apk",
+    "package": "com.autonavi.minimap",
+    "version": "17.03.0.2008",
+    "version_code": 170300,
+    "min_sdk": 21,
+    "target_sdk": 35,
+    "abis": [
+      "arm64-v8a"
+    ],
+    "certificate_sha256": [
+      "b36c0b80cb2417e7fe4c3df01a2d163a7d8443604dd276a2bc1ab0d325102e3e"
+    ],
+    "sha256": "287202d017d27c6bbacb84c658da9a6cc265655c4cf9e44d878127b50836d15b",
+    "bytes": 179829767,
+    "path": "materials/apps/amap_android_17.03.0.2008.apk",
+    "source_url": "https://mobile.amap.com/cn/index",
+    "download_url": "https://download.autonavi.com/amap/package/C3060/Amap_V17.03.0.2008_android_C3060_(Build2611091537OpzJddRk5H-64).apk",
+    "retrieved_at": "2026-11-09T22:30:28.145538+08:00",
+    "source_chain": [
+      "https://mobile.amap.com/cn/index",
+      "https://mapdownload.autonavi.com/apps/apps/amap-official/amap-official/mobile_and.json"
+    ],
+    "signature_verified": true
+  },
+  {
+    "id": "lepao_android",
+    "name": "步道乐跑",
+    "kind": "apk",
+    "package": "com.lptiyu.tanke",
+    "version": "4.3.3",
+    "version_code": 233,
+    "min_sdk": 24,
+    "target_sdk": 33,
+    "abis": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "certificate_sha256": [
+      "a6af18d3f047f3a210e9762f41b6f923f445151625fb5533c41748c7b02a6a24"
+    ],
+    "sha256": "72a93d55f0e7731263e6b4f844f6fae67628a9859234c7f02e185260893e2f73",
+    "bytes": 133044116,
+    "path": "materials/apps/lepao_android_4.3.3.apk",
+    "source_url": "https://www.lptiyu.com/lptiyu_web_new/public/portal/product/lp_app.html",
+    "download_url": "https://imtt.dd.qq.com/sjy.00022/sjy.00004/16891/apk/E4FC02C62D7269B2E68AD943226D7041.apk?fsname=com.lptiyu.tanke_4.3.3.apk",
+    "retrieved_at": "2026-11-09T22:27:31.4706036+08:00",
+    "source_chain": [
+      "https://www.lptiyu.com/lptiyu_web_new/public/portal/product/lp_app.html",
+      "https://www.lptiyu.com/lptiyu_web_new/public/static/images/app_qrcode.png",
+      "http://qr09.cn/D56B2Q",
+      "https://a.app.qq.com/o/simple.jsp?pkgname=com.lptiyu.tanke"
+    ],
+    "signature_verified": true,
+    "notes": [
+      "版本和 SDK 从原 APK 二进制清单读取，APK 签名已通过 apksig 检查；下载大小和 MD5 与应用宝发布信息一致。"
+    ]
+  },
+  {
+    "id": "locationspoofer_network_fix",
+    "name": "LocationSpoofer 网络修复版",
+    "kind": "apk",
+    "package": "com.suseoaa.locationspoofer",
+    "version": "2.6.13",
+    "version_code": 20613,
+    "min_sdk": 26,
+    "target_sdk": 37,
+    "abis": [
+      "arm64-v8a"
+    ],
+    "sha256": "cc8bc5dd0ecefc77180a9426e5a07bde066e4923ff439c2dbc78a3b36eed2231",
+    "certificate_sha256": [
+      "bfb43c8267e9155375e2d0ad009565d044ecd350ebe84fadcab5851416d1bc79"
+    ],
+    "bytes": 47415299,
+    "path": "materials/apps/LocationSpoofer_2.6.13_network_fix.apk",
+    "source_url": "docs/修复来源.md",
+    "redistributable": null,
+    "compatibility_note": "本地修复签名；已有原版须备份迁移。保持 Wi-Fi/基站模拟关闭。"
+  }
+]

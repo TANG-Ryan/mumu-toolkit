@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-09T22:32:36.072268+08:00",
+  "release_ready": true,
+  "summary": "本次仅整理、校验和发布安装资源；按用户要求未进行本轮模拟器升级或运行回归。",
+  "checks": [
+    {
+      "id": "runtime_validation",
+      "status": "not_tested",
+      "detail": "用户要求本次只打包上传，未执行本轮模拟器升级或应用运行验收。"
+    },
+    {
+      "id": "fixed_repairs",
+      "status": "passed",
+      "detail": "两份修复资源的 SHA-256 与此前固定修复版本完全一致；网络修复版作为唯一默认 LocationSpoofer 安装包。"
+    },
+    {
+      "id": "official_downloads",
+      "status": "passed",
+      "detail": "微信 8.0.80、高德 17.03.0.2008、乐跑 4.3.3 来自官方渠道；乐跑大小和 MD5 与发布页面一致。"
+    },
+    {
+      "id": "apk_signatures",
+      "status": "passed",
+      "detail": "四个 APK 均通过 Android apksig 8.7.3 的 API26–35 签名验证，清单记录实际证书 SHA-256。"
+    },
+    {
+      "id": "windows_installer",
+      "status": "passed",
+      "detail": "MuMu 官方在线安装器的 Authenticode 签名有效，发行者为 NetEase (Hangzhou)。"
+    },
+    {
+      "id": "installer_guard_tests",
+      "status": "passed",
+      "detail": "Windows PowerShell 5.1 下使用模拟 ADB，通过设备错误、API不足、ABI不符、降级、签名不同、取消、安装失败和成功八项检查；未接触模拟器。"
+    },
+    {
+      "id": "package_integrity",
+      "status": "passed",
+      "detail": "分发目录的白名单、每文件大小和 SHA-256 已核验；生成 ZIP 时再次验证 CRC 和所有文件 SHA-256。"
+    },
+    {
+      "id": "public_content",
+      "status": "passed",
+      "detail": "公开分发仅包含六份安装资源、说明、构建工具和清单；不含账号、路线、实例镜像、授权数据库、运行日志或签名私钥。"
+    }
+  ],
+  "known_limitations": [
+    "微信 8.0.80 此前在 MuMu Android 15 中有媒体线程崩溃记录；本包包含官方最新版安装包，不宣称已解决兼容性。",
+    "LocationSpoofer 采用本地签名，已装原版时不能直接覆盖；替换前需自行备份数据。",
+    "网络修复后仍需保持 Wi-Fi 和基站模拟关闭。",
+    "MuMu 安装器可能需要联网下载引擎；本资料包不包含完整模拟器镜像。"
+  ]
+}

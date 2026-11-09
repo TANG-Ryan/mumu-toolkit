@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+downloads/
+dist/
+test-results/
+*.apk
+*.exe
+*.zip
+*.mumudata
+*.vdi
+*.p12
+*.pfx
+*.key
+*.db
+*.tar.gz
+assets.local.json
